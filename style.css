@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+@font-face {
+    font-family: 'Federo', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+}
+:root{
+    --azulescuro:#001A23;
+    --marrom:#502419;
+    --cinza:#7d7e75;
+    --verde:#4f5d2f;
+    --branco:#e8f1f2;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: var(--azulescuro);
+}
+
+.divmenu {
+    justify-content: center;
+    
+}
+.ulmenu {
+    list-style: none;
+    display: flex;
+}
+
+.limenu{
+    color: var(--branco);
+    font-family: 'Federo';
+    padding-top: 2%;
+    margin:0 auto;
+}
+
+
+
+h1{
+    font-family: 'Federo';
+    color: var(--branco);
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    
+}
+.titulo {
+    font-size: xx-large;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    
+    
+}
+h2{
+    font-family: 'Federo';
+    font-size: medium;
+    color: var(--branco);
+    left: 50%;
+    top: 110%;
+    margin-left: -100px;
+    margin-top: -50px;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+
+}
